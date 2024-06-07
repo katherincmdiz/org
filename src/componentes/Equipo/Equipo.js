@@ -17,7 +17,7 @@ const  Equipo = ( props) => {
         colaboradores.length > 0 &&  
         <section className="equipo" style={obj}>
         <input type="color" className="input-color" 
-        value={colorPrimario} 
+        value={hexToRgba(colorPrimario, 0.6)}
         onChange={(e) => actualizarColor(e.target.value, id)}/>
         <h3 style={estiloTitulo}>{titulo}</h3>
         <div className="colaboradores">

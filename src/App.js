@@ -20,6 +20,14 @@ function App() {
    },
    {
     id: uuid(),
+    equipo:"Front End",
+    foto:"https://github.com/christianpva.png",
+    nombre:"Christian Velasco",
+    puesto:"Instructor",
+    fav: false
+   },
+   {
+    id: uuid(),
     equipo:"Programación",
     foto:"https://github.com/harlandlohora.png",
     nombre:"Harland Lohora",

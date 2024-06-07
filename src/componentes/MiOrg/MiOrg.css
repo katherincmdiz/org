@@ -3,6 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    gap: 20px;
 }
 .title {
     color : #6278F7;
@@ -15,4 +18,12 @@
     position: absolute;
     right: 30%;
     cursor: pointer;
+    top:   20px;
 }
+
+@media (max-width: 1200px) {
+    .org-section img {
+        right: 3%;
+    }
+}
+
